@@ -99,7 +99,6 @@ function getBaseAccessToken(res) {
 }
 
 function getTicket(res) {
-    console.log(appInfo)
     if (appInfo.jsapi_ticket) {
         res.json(sign(appInfo.jsapi_ticket, appInfo.url))
     } else {
