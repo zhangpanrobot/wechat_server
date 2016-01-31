@@ -10,8 +10,7 @@
   "dependencies": {
     "express": "^4.13.3",
     "request": "^2.67.0",
-    "jssha": "^1.6.0",
-    "pm2": "*"
+    "jssha": "^1.6.0"
   },
   "author": "zp",
   "license": "MIT"
